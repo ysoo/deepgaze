@@ -13,8 +13,8 @@
 from deepgaze.face_detection import HaarFaceDetector
 import cv2
 
-# Reading the image in black/withe
-image = cv2.imread("./group.jpg",0)
+# Reading the image in black/white
+image = cv2.imread("./bellucci.jpg",0)
 
 hfd = HaarFaceDetector("../../etc/xml/haarcascade_frontalface_alt.xml", "../../etc/xml/haarcascade_profileface.xml")
 allTheFaces = hfd.returnMultipleFacesPosition(image, runFrontal=True, runFrontalRotated=True, 

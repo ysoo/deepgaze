@@ -15,9 +15,10 @@ import cv2
 
 # Reading the image in black/white
 image = cv2.imread("./bellucci.jpg",0)
+img_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 hfd = HaarFaceDetector("../../etc/xml/haarcascade_frontalface_alt.xml", "../../etc/xml/haarcascade_profileface.xml")
-allTheFaces = hfd.returnMultipleFacesPosition(image, runFrontal=True, runFrontalRotated=True, 
+allTheFaces = hfd.returnMultipleFacesPosition(img_gray, runFrontal=True, runFrontalRotated=True, 
                     runLeft=True, runRight=True, 
                     frontalScaleFactor=1.2, rotatedFrontalScaleFactor=1.2, 
                     leftScaleFactor=1.15, rightScaleFactor=1.15, 

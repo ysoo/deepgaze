@@ -111,11 +111,11 @@ print("Rescaling the label values from radians to range -1/+1")
 
 #Min-Max scaling of the label
 #Roll
-label[:,0] /= (numpy.pi/2) #pi/2 radians correspond to 90 degree
+label[:,0] /= ((5.0/36.0)*numpy.pi) #5/36*pi radians correspond to 25 degree
 #Pitch
-label[:,1] /= (numpy.pi/2) #pi/2 radians are 90 degree
+label[:,1] /= (numpy.pi/4.0) #pi/4 radians are 45 degree
 #Yaw
-label[:,2] /= (numpy.pi/2) #pi/2 radians correspond to 90 degree
+label[:,2] /= (numpy.pi/2.0) #pi/2 radians correspond to 90 degree
 
 #Roll
 max_roll = numpy.amax(label[:,0])

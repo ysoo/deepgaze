@@ -68,7 +68,7 @@ A convolutional neural network (CNN, or ConvNet) is a type of feed-forward artif
 
 Main contributors
 -------------------
-This is an updated list of the **main contributors** of the project. **We are looking for contributors!** If you want to contribute adding a new module or improving an existing one, [send an email to our team!](https://www.google.com/recaptcha/mailhide/d?k=016tAI_yFvIWy5xYnHJtWEng==&c=X81f3FghEKqyIcS9KuoQNEU-9Nea8BG9d_NXgX4M005wtfBYv_ZRTm7Xr5ygEOUP)
+This is an updated list of the **main contributors** of the project. **We are looking for contributors!** If you want to contribute adding a new module or improving an existing one, [send an email to our team!](https://www.inf.ed.ac.uk/people/staff/Massimiliano_Patacchiola.html)
 
 - [Massimiliano Patacchiola](http://mpatacchiola.github.io/): project leader and main contributor
 - [Joel Gooch](https://www.linkedin.com/in/joel-gooch-001458132/?ppe=1): head pose estimation

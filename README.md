@@ -1,6 +1,8 @@
 Updates
 ----------
 
+**Update 20/03/2019** Started the porting on Python/OpenCV 3.0, check the branch `2.0` for a preliminary version.
+
 **Update 10/06/2017** The PDF of the article *"Head pose estimation in the wild using Convolutional Neural Networks and adaptive gradient methods"* is available for **free download** in the next 50 days using [this special link](https://authors.elsevier.com/a/1VBdC77nKOnOt)
 
 **Update 04/06/2017** Article *"Head pose estimation in the wild using Convolutional Neural Networks and adaptive gradient methods"* have been accepted for publication in Pattern Recogntion (Elsevier). The Deepgaze CNN head pose estimator module is based on this work.

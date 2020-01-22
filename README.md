@@ -86,6 +86,8 @@ Some examples may require additional libraries:
 Installation
 --------
 
+ATTENTION: this version is obsolete, please check the [branch 2.0 on this repository](https://github.com/mpatacchiola/deepgaze/tree/2.0)
+
 Download the repository from [[here]](https://github.com/mpatacchiola/deepgaze/archive/master.zip) or clone it using git:
 
 ```shell

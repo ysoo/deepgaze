@@ -1,6 +1,8 @@
 Updates
 ----------
 
+**Update 22/01/2020** You may be interested in following [my new Youtube channel](https://www.youtube.com/channel/UC6AxKVw2y_b3ab-esLdK0_g) for weekly videos about *Computer Vision*, *Machine Learning*, *Deep Learning*, and *Robotics*.
+
 **Update 16/07/2019** Stable version of *Deepgaze 2.0* is available on branch `2.0`.
 
 **Update 20/03/2019** Started the porting on Python/OpenCV 3.0, check the branch `2.0` for a preliminary version.

@@ -135,8 +135,14 @@ def main():
                                   P3D_STOMION])
 
     #Declaring the two classifiers
-    #my_cascade = haarCascade("./etc/haarcascade_frontalface_alt.xml", "./etc/haarcascade_profileface.xml")
-    my_detector = faceLandmarkDetection('./etc/shape_predictor_68_face_landmarks.dat')
+    #my_cascade = haarCascade("../etc/haarcascade_frontalface_alt.xml", "../etc/haarcascade_profileface.xml")
+    dlib_landmarks_file = "./shape_predictor_68_face_landmarks.dat"
+    if(os.path.isfile(dlib_landmarks_file)==False): 
+        print("The dlib landmarks file is missing! Use the following commands to download and unzip: ")
+        print(">> wget dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2")
+        print(">> bzip2 -d shape_predictor_68_face_landmarks.dat.bz2")
+        return
+    my_detector = faceLandmarkDetection(dlib_landmarks_file)
     my_face_detector = dlib.get_frontal_face_detector()
 
     while(True):
